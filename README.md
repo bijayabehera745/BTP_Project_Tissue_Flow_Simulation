@@ -292,6 +292,23 @@ PyAFV/
 
 ---
 
+## Simulation Outputs (Google Drive)
+
+Videos, trajectory plots, and initial state images are stored on Google Drive:
+
+**[PyAFV_Galvanotaxis — Google Drive](https://drive.google.com/drive/folders/1scMuUVJCb3zcT6cVbU9k7Rh70m8bXO-a)**
+
+```
+PyAFV_Galvanotaxis/
+├── videos/          — MP4 simulations (matplotlib & ParaView)
+├── trajectories/    — Cell trajectory plots per p0 value
+└── initial_states/  — Unrelaxed and relaxed tissue snapshots
+```
+
+> Upload the contents of the local `Drive_Upload/` folder into the matching subfolders above.
+
+---
+
 ## Credits
 
 Built on the [PyAFV](https://pyafv.readthedocs.io) library by Wei Wang (2025).  
