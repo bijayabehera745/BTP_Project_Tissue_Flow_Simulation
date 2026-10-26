@@ -1,0 +1,114 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude / AI agent files
+CLAUDE.md
+AGENTS.md
+.claude/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------
+# Project-specific ignored files (Simulation Outputs)
+# ---------------------------------------------------
+# Ignore virtual environment
+cell_simulation/
+
+# Drive upload folder (local copy only, upload manually)
+Drive_Upload/
+
+# Ignore exported frames directories
+frames/
+
+# Ignore simulation arrays
+*.npy
+trajectories.npy
+
+# Ignore generated plots and images
+*.png
+*.pdf
+*.svg
+
+# Keep README reference images
+!initial_unrelaxed.png
+!initial_relaxed.png
+!pyafv/assets/*.png
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.gif
+
+# Keep README demo videos
+!paraview_sim_1.mp4
+!simulation_video_5.0_n800.mp4
+
+# Ignore presentation and document files
+*.pptx
